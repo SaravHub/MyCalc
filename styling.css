@@ -1,0 +1,101 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background:url("calc_3.jpg") ;
+}
+.bg
+{
+	background-image: linear-gradient(to right, green,blue);
+	height: 100%;
+}
+.main
+{
+    border-radius: 20px;
+    /* background-image: linear-gradient(to right, green,blue); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 20px 0px whitesmoke;
+    background: rgba(0,0,0,0);
+    backdrop-filter: saturate(180%) blur(5px);
+}
+table
+{
+    padding:24px;
+    margin-left: 8px;
+}
+td
+{
+  margin:10px;
+}
+.button
+{
+    width: 100%;
+    font-size: 177%;
+    font-weight: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    font-family: cursive;
+    /* background-image: linear-gradient(to bottom,black,darkblue); */
+    border-radius: 0px 25px 0px 25px;
+    transition: all .5s ease;
+    /* box-shadow: 0 8px 6px -6px white; */
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+.button:hover
+{
+	background-image: linear-gradient(to bottom,white);
+    /* color: deeppink; */
+    font-family: cursive;
+    transition: all .5s ease;
+    box-shadow: 0px 0px 8px 1px whitesmoke;
+    background: rgba(0,0,0,0);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+p {
+  border-right: solid 5px rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+/*
+Animation 
+.textview{
+  animation: animated-text 4s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+
+/* text animation 
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 456px;}
+}
+
+/* cursor animations 
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}*/
+.textview
+{
+width: 75%;
+height: 48px;
+padding: 10px 9px 8px 18px;
+margin: 29px 5px 6px 30px;
+font-size: 25px;
+border: none;
+border-radius: 20px;
+transition: all .3s ease;
+}
